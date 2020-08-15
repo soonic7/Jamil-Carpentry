@@ -41,13 +41,11 @@ p, h3, li {
 }
 
 .header {
-    height: 80px;
+    height: 100px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 10px;
-    margin-bottom: 10px;
 }
 
 .header img {
@@ -55,20 +53,25 @@ p, h3, li {
     margin-left: 20px;
 }
 
+.header ul {
+    height: 100px;
+    background-color: #5e9bac;
+    display: flex;
+}
+
 .header ul li {
     display: inline-block;
     margin-right: 20px;
     font-size: 1.5rem;
     background-color: #5e9bac;
-    padding: 0.7rem;
-    border-radius: 30px;
+    padding: 1.5rem;
     /*color: #dfccc7;*/
     color: #5c372c;
 }
 
 .header ul li :hover {
     color: #dfccc7;
-    box-shadow: 0px 5px 5px grey;
+    /*box-shadow: 0px 10px 5px -3px grey;*/
 }
 
 .header ul li a {
