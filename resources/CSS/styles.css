@@ -50,11 +50,13 @@ p, h3, li {
 
 .header img {
     height: 80px;
-    margin-left: 20px;
+    margin-left: 10%;
+    border: 3px solid #9D5744;
+    border-radius: 45px;
 }
 
 .header ul {
-    width: 50%;
+    width: 66%;
     height: 100px;
     background-color: #5e9bac;
     display: flex;
@@ -73,8 +75,6 @@ p, h3, li {
 }
 
 .header ul li :hover {
-    position: relative;
-    bottom: 0.2rem;
     color: #dfccc7;
     box-shadow: 0px 15px 20px -10px grey;
 }
@@ -341,6 +341,7 @@ p, h3, li {
     }
     .header img {
         height: 80px;
+        margin: 0;
     }
     .header ul {
         height: auto;
